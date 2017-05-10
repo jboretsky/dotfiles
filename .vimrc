@@ -25,7 +25,6 @@ set statusline=%F
 " }}}
 
 " Color identifiers {{{
-set colorcolumn=85
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+$/
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
